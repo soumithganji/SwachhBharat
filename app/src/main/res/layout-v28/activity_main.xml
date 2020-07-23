@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/flash_scree"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/flash_scree">
+
+    <TextView
+        android:id="@+id/swachh"
+        android:layout_width="259dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="49dp"
+        android:gravity="top"
+        android:text="@string/swachh"
+        android:textAppearance="@style/swachh"
+        android:textColor="@android:color/black"
+        app:fontFamily="@font/pristana"
+        android:lineHeight="115sp"/>
+
+</RelativeLayout>
